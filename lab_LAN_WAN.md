@@ -54,3 +54,7 @@ Feita a conexão, abra a interface do roteador, vá até a aba `config` e seleci
 Após isso, preecha a caixa de seleção `on` para ativar a porta do roteador.
 <br />
 Replique esses passos para o Router1
+
+## 5. Configuração dos PCs
+
+Iniciando pelo 

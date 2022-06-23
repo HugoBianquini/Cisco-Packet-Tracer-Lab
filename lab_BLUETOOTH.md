@@ -12,6 +12,7 @@ A Rede Bluetooth é uma tecnologia de comunicação sem fio desenvolvida em 1994
 
 Vamos primeiramente escolher nossos aparelhos. Para este exemplo iremos usar um Bluetooth Speaker (som) e um Portable Music Player (celular). <br/>
 ![dsBuffer bmp](https://user-images.githubusercontent.com/106887744/175208991-e5a4a602-db40-4f89-af51-59e9adef9f0e.png)
+<br/>
 ![celular bmp](https://user-images.githubusercontent.com/106887744/175209509-82a9ec2f-91d8-4f70-8142-9fc460486dc0.png)
 <br/>
 

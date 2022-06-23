@@ -72,4 +72,8 @@ O próximo passo é utilizarmos o protocolo ICMP para troca de mensagens entre o
 ![trab11](https://user-images.githubusercontent.com/31890192/175188802-a935d0a5-58ae-4650-8ed9-97d848f9a109.png)
 
 #### 5.2 Exemplo 2
-https://www.loom.com/share/983f9683224c49978699c7e4b1695aaa
+
+https://user-images.githubusercontent.com/106887744/175375118-8395f30a-39b4-4469-a408-9cf2640a2fd9.mp4
+
+
+

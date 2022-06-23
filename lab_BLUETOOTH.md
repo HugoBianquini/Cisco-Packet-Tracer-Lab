@@ -1,10 +1,20 @@
-# Criando Redes Wireless
+# Criando Rede Bluetooth
 
 Vamos lá!
 
 ## 1. Começando pelo início
-Vamos primeiramente escolher nosso aparelho. Para este exemplo iremos usar um Roteador de rede de internet wireless (WRT300N). <br/>
-![roteador](https://user-images.githubusercontent.com/31890192/175184102-b92a3477-fe2e-4e84-85ba-9393c3762b8f.png)
+
+### 1.1. O que é uma Rede Bluetooth?
+
+A Rede Bluetooth é uma tecnologia de comunicação sem fio desenvolvida em 1994. Essa rede permite que seja realizado a troca de dados e arquivos entre celulares, computadores, scanners, fones de ouvido e demais dispositivos, que estejam relativimente perto fisicamente, de forma rápida e segura. Dessa forma, nesse laboratório iremos simular uma conecção Bluetooth entre uma caixa de som e um celular.
+
+### 1.2. Aparelhos Utilizados
+
+Vamos primeiramente escolher nossos aparelhos. Para este exemplo iremos usar um Bluetooth Speaker (som) e um Portable Music Player (celular). <br/>
+![Som bmp](https://user-images.githubusercontent.com/106887744/175208806-122f10fa-c5e9-4b2e-9606-a8cb9489033d.png)
+)
+<br/>
+![Portable Music Player]()
 <br/>
 
 ## 2. Configurando a Rede

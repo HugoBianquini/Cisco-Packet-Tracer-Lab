@@ -41,15 +41,17 @@ Nessa etapa nós definiremos os IPs das portas do roteador e os conectaremos com
 
 Primeiro, conecte o Roteador ao Switch seguindo a seguinte tabela de portas inicial do roteador
 
-|Porta (Router0)| Equipamento Destino | Porta Destino |
-|---------------|---------------------|---------------|
-|GigabitEthernet 0/0/0 | Switch0              | GigabitEthernet 0/1|
+Equipamento Origem |Porta Origem    | Equipamento Destino | Porta Destino |
+-------------------|----------------|---------------------|---------------|
+Router 0           |GigabitEthernet 0/0/0 | Switch0              | GigabitEthernet 0/1|
+Router 1           |GigabitEthernet 0/0/0 | Switch1              | GigabitEthernet 0/1|
 
 Feita a conexão, abra a interface do roteador, vá até a aba `config` e selecione a porta GigabitEthernet0/0/0. Preencha a configuração IP da seguinte forma:
 
-|IPv4 Address| Subnet Mask |
-|------------|-------------|
-|192.168.20.1| 255.255.255.0|
+Router |IPv4 Address| Subnet Mask |
+-------|------------|-------------|
+Router 0|192.168.20.1| 255.255.255.0|
+Router 1|168.227.20.1| 255.255.0.0|
 
 Após isso, preecha a caixa de seleção `on` para ativar a porta do roteador.
 <br />
@@ -57,4 +59,92 @@ Replique esses passos para o Router1
 
 ## 5. Configuração dos PCs
 
-Iniciando pelo 
+Abra a interface do PC, vá para a aba `config` e preencha o Default Gateway.
+Siga a tabela abaixo:
+
+|PC          | DEFAULT GATEWAY |
+|------------|-------------|
+|PC0 | 192.168.20.1|
+|PC1 | 192.168.20.1|
+|PC2 | 168.227.20.1|
+|PC3 | 168.227.20.1|
+
+
+Uma vez preenchido os DEFAULT_GATEWAYS, agora é necessário configurar o IP dos PCs.<br >
+Para isso, enquanto está na aba `config`, seleciona a opção `FastEthernet0`
+
+Ao entrar na interface da porta `FastEthernet0`, você conseguirá inserir o IP e a SubnetMask dos PCs.<br />
+Siga a tabela abaixo:
+
+PC |IPv4 Address| Subnet Mask |
+---|------------|-------------|
+PC0|192.168.20.2| 255.255.255.0|
+PC1|192.168.20.3| 255.255.255.0|
+PC2|168.227.20.2| 255.255.0.0|
+PC3|168.227.20.3| 255.255.0.0|
+
+## 6. Finalização da LAN
+
+Com todos os passos anteriores seguidos, você já deve ter 2 LANs (RJ e SP) operacionais.<br />
+Seu projeto deve estar parecido com esse:
+
+![setup_lan](https://user-images.githubusercontent.com/65050552/175181996-0f26ab1b-5714-4417-b86e-f0d1ece34f94.png)
+
+## 7. Configuração da WAN
+
+Como as LANs RJ e SP estão separadas por uma grande distância, precisaremos configurar uma WAN para interconectar essas 2 redes locais.
+
+Isso será feito conectando nossos 2 roteadores, `Router0` e `Router1`.
+
+Será necessário que você os conecte utilizando o cabo Serial DCE, já que será uma conexão de longa distância.
+
+Conecte a porta `Serial 0/1/0` do `Router0` na porta `Serial 0/1/0` do `Router1`
+
+## 8. Configurar portas serial dos roteadores
+
+Abra a interface do roteador e vá para a aba `config`. <br/ >
+Selecione a porta `Serial 0/1/0` e preencha a configuração de IP conforme a tabela abaixo:
+
+
+Router |IPv4 Address| Subnet Mask |
+-------|------------|-------------|
+Router0|200.10.0.1  | 255.255.255.0|
+Router1|200.10.0.2  | 255.255.255.0|
+
+Após a conexão, seus roteadores devem estar parecidos com essa imagem:
+
+![roteadores](https://user-images.githubusercontent.com/65050552/175185706-2d3e9d23-8051-4d77-9075-3278c17b7c5d.png)
+
+## 9. Configurar protocolo RIP
+
+Para que os roteadores consigar "escutar" as redes, precisamos configurar o protocolo RIP e indicar quais redes devem ser "escutadas"
+
+Para isso, ainda na aba `config` na interface do roteador, selecione a opção `RIP`.
+
+Insira as redes no campo `Network` e precione o botão `Add`.<br />
+Insire uma rede de cada vez: <br />
+
+|Rede         |
+|-------------|
+|192.168.20.0 |
+|200.10.0.0   |
+|168.227.20.0 |
+
+
+Ao final, sua interface deve estar dessa forma:
+<br />
+
+![RIP](https://user-images.githubusercontent.com/65050552/175185412-9974634b-29a4-498a-b80a-dcb1f88f413f.png)
+
+
+## 10. Finalização
+
+Pronto! Você conseguiu configurar 2 redes locais e uma rede WAN para conectá-las.<br />
+Agora você pode testar enviando pacotes de uma rede para outra, como no vídeo abaixo:
+
+
+
+![Cisco Packet Tracer 2022-06-22 22-11-59 (1)](https://user-images.githubusercontent.com/65050552/175187117-291371f0-1989-4971-88bf-9b71bf6fb51c.gif)
+
+
+

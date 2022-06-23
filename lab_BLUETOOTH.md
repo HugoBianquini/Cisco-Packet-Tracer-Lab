@@ -11,11 +11,9 @@ A Rede Bluetooth é uma tecnologia de comunicação sem fio desenvolvida em 1994
 ### 1.2. Aparelhos Utilizados
 
 Vamos primeiramente escolher nossos aparelhos. Para este exemplo iremos usar um Bluetooth Speaker (som) e um Portable Music Player (celular). <br/>
-![Som bmp](https://user-images.githubusercontent.com/106887744/175208806-122f10fa-c5e9-4b2e-9606-a8cb9489033d.png)
-)![dsBuffer bmp](https://user-images.githubusercontent.com/106887744/175208991-e5a4a602-db40-4f89-af51-59e9adef9f0e.png)
-
+![dsBuffer bmp](https://user-images.githubusercontent.com/106887744/175208991-e5a4a602-db40-4f89-af51-59e9adef9f0e.png)
 <br/>
-![Portable Music Player]()
+![celular bmp](https://user-images.githubusercontent.com/106887744/175209509-82a9ec2f-91d8-4f70-8142-9fc460486dc0.png)
 <br/>
 
 ## 2. Configurando a Rede
@@ -23,6 +21,7 @@ Para a configuração da rede iremos usar a interface gráfica do aparelho. Bast
 
 ### 2.1. Identificação da Rede
 ![trab2](https://user-images.githubusercontent.com/31890192/175184844-c696b495-77c1-4a3a-8bb8-a413bc0768f2.png)
+
 
 ### 2.2. Segurança da Rede
 ![trab3](https://user-images.githubusercontent.com/31890192/175184848-1fcdcd1e-e922-40f6-b8d7-753ca280e921.png)

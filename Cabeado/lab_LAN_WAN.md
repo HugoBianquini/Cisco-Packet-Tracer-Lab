@@ -5,7 +5,7 @@ Mãos a obra!
 ## 1. Arraste os equipamentos necessários para a tela de trabalho
 Traga 4 computadores, 2 switches (2960) e 2 roteadores (4321) para a tela de trabalho. <br />
 
-|PC |  Switch | Roteadores |
+|PC |  Switch | Roteador |
 |---------------|---------------------|---------------|
 |![PC](https://user-images.githubusercontent.com/65050552/175389679-7b356c2a-c42a-4a79-9977-38b967857a54.png) | ![switch](https://user-images.githubusercontent.com/65050552/175389748-3caba68a-32cd-461c-9f81-36cf9f065f19.png) | ![router](https://user-images.githubusercontent.com/65050552/175389860-c458a6e8-0e7d-436d-9eb2-6575b353232e.png) |
 

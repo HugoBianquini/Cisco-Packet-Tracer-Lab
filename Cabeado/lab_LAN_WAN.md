@@ -4,7 +4,14 @@ Mãos a obra!
 
 ## 1. Arraste os equipamentos necessários para a tela de trabalho
 Traga 4 computadores, 2 switches (2960) e 2 roteadores (4321) para a tela de trabalho. <br />
-Disponha-os conforme a imagem abaixo:
+
+|PC |  Switch | Roteadores |
+|---------------|---------------------|---------------|
+|![PC](https://user-images.githubusercontent.com/65050552/175389679-7b356c2a-c42a-4a79-9977-38b967857a54.png) | ![switch](https://user-images.githubusercontent.com/65050552/175389748-3caba68a-32cd-461c-9f81-36cf9f065f19.png) | ![router](https://user-images.githubusercontent.com/65050552/175389860-c458a6e8-0e7d-436d-9eb2-6575b353232e.png) |
+
+
+Disponha-os conforme a imagem abaixo:!
+
 
 ![setup_inicial](https://user-images.githubusercontent.com/65050552/175167542-81be4b35-e9ab-4b98-8529-577e1f583a93.png)
 
@@ -25,10 +32,9 @@ Replique essas conexões para a LAN de São Paulo
 Antes de realizar conexões de longa distância, os roteadores devem ser equipados com uma placa apropriada para esse tipo de conexão.
 
 Para isso, será necessário:
-#### 1. Desligar o Roteador
-#### 2. Abrir a interface do Roteador (apenas clique em cima do equipamento para abrir)
-#### 3. Desligue o roteador (garanta que esteja na aba `physical`
-#### 4. Clique na placa no canto direito inferior na interface do roteador e arraste até um dos compartimentos disponíveis no roteador, conforme a imagem abaixo:
+#### 1. Abrir a interface do Roteador (apenas clique em cima do equipamento para abrir)
+#### 2. Desligue o roteador (garanta que esteja na aba `physical`
+#### 3. Clique na placa no canto direito inferior na interface do roteador e arraste até um dos compartimentos disponíveis no roteador, conforme a imagem abaixo:
 <br />
 
 ![placa_roteador](https://user-images.githubusercontent.com/65050552/175170281-98270db8-84f2-476c-804d-c21858e183e5.png)
@@ -37,15 +43,17 @@ Para isso, será necessário:
 
 
 ## 4. Configuração dos roteadores
+### 4.1 Conexão com Switches
 Nessa etapa nós definiremos os IPs das portas do roteador e os conectaremos com os Switches
 
-Primeiro, conecte o Roteador ao Switch seguindo a seguinte tabela de portas inicial do roteador
+Primeiro, conecte o Roteador ao Switch seguindo a seguinte tabela de portas do roteador
 
 Equipamento Origem |Porta Origem    | Equipamento Destino | Porta Destino |
 -------------------|----------------|---------------------|---------------|
 Router 0           |GigabitEthernet 0/0/0 | Switch0              | GigabitEthernet 0/1|
 Router 1           |GigabitEthernet 0/0/0 | Switch1              | GigabitEthernet 0/1|
 
+### 4.2 Configuração IP
 Feita a conexão, abra a interface do roteador, vá até a aba `config` e selecione a porta GigabitEthernet0/0/0. Preencha a configuração IP da seguinte forma:
 
 Router |IPv4 Address| Subnet Mask |
@@ -55,9 +63,10 @@ Router 1|168.227.20.1| 255.255.0.0|
 
 Após isso, preecha a caixa de seleção `on` para ativar a porta do roteador.
 <br />
-Replique esses passos para o Router1
 
 ## 5. Configuração dos PCs
+
+### 5.1. Default Gateway
 
 Abra a interface do PC, vá para a aba `config` e preencha o Default Gateway.
 Siga a tabela abaixo:
@@ -69,8 +78,9 @@ Siga a tabela abaixo:
 |PC2 | 168.227.20.1|
 |PC3 | 168.227.20.1|
 
+### 5.1. Endereços IP
 
-Uma vez preenchido os DEFAULT_GATEWAYS, agora é necessário configurar o IP dos PCs.<br >
+Uma vez preenchido os DEFAULT GATEWAYS, agora é necessário configurar o IP dos PCs.<br >
 Para isso, enquanto está na aba `config`, seleciona a opção `FastEthernet0`
 
 Ao entrar na interface da porta `FastEthernet0`, você conseguirá inserir o IP e a SubnetMask dos PCs.<br />

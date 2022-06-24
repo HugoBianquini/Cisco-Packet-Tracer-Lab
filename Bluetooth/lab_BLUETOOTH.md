@@ -24,7 +24,7 @@ https://user-images.githubusercontent.com/106887744/175618729-4500cd74-1af5-44af
 ## 2. Configurando a Rede
 Primeiramente é importante alanalisarmos as informações dos aparelhos.
 
-####2.1. Informações do Bluetooth Speaker (som)
+#### 2.1. Informações do Bluetooth Speaker (som)
 
 ![info_som](https://user-images.githubusercontent.com/106887744/175612894-825d28d3-eb52-4211-91ce-ac79084861a8.png)<br/>
 
@@ -66,4 +66,19 @@ Na parte de "config" é possível rever várias informações importante para ve
 #### 2.4.2 "Config" do Portable Music Player
 
 ![celular_config](https://user-images.githubusercontent.com/106887744/175626478-64ee6c0f-28f4-4e5a-9ace-bde97b20cd45.png)
+
+## 3. Curiosidade
+
+O Cisco Packet Tacer tammbém permite que na aba "Physical" vermos uma representação física do aparelho.
+
+### 3.1 "Physical" do Bluetooth Speaker
+
+![Sem título](https://user-images.githubusercontent.com/106887744/175644303-bd5b8c11-de21-4b0b-bb5b-6174d21f048a.png)
+
+
+### 3.1 "Physical" do Portable Music Player
+
+
+![fisico_celular](https://user-images.githubusercontent.com/106887744/175644342-6e4b8829-452f-443c-88d7-a93a9f750a5e.png)
+
 

@@ -6,7 +6,7 @@ Vamos lá!
 
 ### 1.1. O que é uma Rede Bluetooth?
 
-A Rede Bluetooth é uma tecnologia de comunicação sem fio desenvolvida em 1994. Essa rede permite que seja realizado a troca de dados e arquivos entre celulares, computadores, scanners, fones de ouvido e demais dispositivos, que estejam relativimente perto fisicamente, de forma rápida e segura. Dessa forma, nesse laboratório iremos simular uma conecção Bluetooth entre uma caixa de som e um celular.
+A Rede Bluetooth é uma tecnologia de comunicação sem fio desenvolvida em 1994. Essa rede permite que seja realizado a troca de dados e arquivos entre celulares, computadores, scanners, fones de ouvido e demais dispositivos, que estejam relativamente perto fisicamente, de forma rápida e segura. Dessa forma, nesse laboratório iremos simular uma conexão Bluetooth entre uma caixa de som e um celular.
 
 ### 1.2. Aparelhos Utilizados
 

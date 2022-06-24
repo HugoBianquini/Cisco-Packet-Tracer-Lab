@@ -23,16 +23,24 @@ Primeiramente é importante alanalisarmos as informações dos aparelhos.
 
 ![info_som](https://user-images.githubusercontent.com/106887744/175612894-825d28d3-eb52-4211-91ce-ac79084861a8.png)<br/>
 
-Nessa imagem é possível observa dados interessantes de serem destacados: o "Device Name : IoT0" identifica que é um aparelho de internet das coisas, o "IP Address" do aparelho que é 169.254.158.206/16 para o Wirelees, o "MAC Address" no qual tem o de origem que é 0001.6310.9ECE  e o de destino que é 00E0.F7EA.42C7.
+Nessa imagem é possível observa dados interessantes de serem destacados: o "Device Name : IoT0" identifica que é um aparelho de internet das coisas, o "IP Address" do aparelho que é 169.254.158.206/16 para o Wireless, o "MAC Address" no qual tem o de origem que é 0001.6310.9ECE  e o de destino que é 00E0.F7EA.42C7.
 
-### 2.1. Informações do Portable Music Player (celular)
+### 2.2. Informações do Portable Music Player (celular)
 
 ![info_celular](https://user-images.githubusercontent.com/106887744/175614450-611d29c5-bd17-4e34-949c-92a3f5980c40.png)
 
-Nessa imagem é possível observa dados interessantes de serem destacados: o "Device Name : IoT1" identifica que é um aparelho de internet das coisas, o "IP Address" do aparelho que é 169.254.158.206/16 para o Wirelees, o "MAC Address" no qual tem o de origem que é 0001.6310.9ECE  e o de destino que é 00E0.F7EA.42C7.
+Nessa imagem é possível observa dados interessantes de serem destacados: o "Device Name : IoT1" identifica que é um aparelho de internet das coisas, o "IP Address" do aparelho que é 169.254.162.102/16 para o Wireless, o "MAC Address" no qual tem o de origem que é 0002.1715.A266  e o de destino que é 0060.5CCD.EDB6.
 
-### 2.1. Identificação da Rede
-![trab2](https://user-images.githubusercontent.com/31890192/175184844-c696b495-77c1-4a3a-8bb8-a413bc0768f2.png)
+### 2.3. Configurando os aparelhos
+
+Nessa parte iremos ativar o Bluetooth de ambos aparelhos, para isso é necessário desativar o Wireless de ambos os aparelhos, visto que o Bluetooth 5.0 (que normalmente é utilizado nos fones) utiliza a frequência 2.4Ghz a mesma dos roteadores padrão e devido a isso pode haver uma interferência entre os sinais. Para realizar essa configuração é preciso clicar em cima do aparelho, com isso irá abrir uma página sobre o aparelho. Nessa página, selecione "config" localizado no menu superior, primeiro selecione no menu lateral a opção "Wireless" e desative a opção "on". Após isso, selecione no menu lateral a opção "Bluetooth" e ative a opção "on".
+
+
+
+
+
+https://user-images.githubusercontent.com/106887744/175616387-7c9d38c6-1cb4-44be-b48a-79712f2a9f8f.mp4
+
 
 
 ### 2.2. Segurança da Rede

@@ -16,10 +16,15 @@ Vamos primeiramente escolher nossos aparelhos. Para este exemplo iremos usar um 
 ![celular bmp](https://user-images.githubusercontent.com/106887744/175209509-82a9ec2f-91d8-4f70-8142-9fc460486dc0.png)
 <br/>
 
+### 1.2.1 Vídeos Aparelhos Utilizados
+
+https://user-images.githubusercontent.com/106887744/175618729-4500cd74-1af5-44af-b880-a09468ea2aba.mp4
+
+
 ## 2. Configurando a Rede
 Primeiramente é importante alanalisarmos as informações dos aparelhos.
 
-### 2.1. Informações do Bluetooth Speaker (som)
+####2.1. Informações do Bluetooth Speaker (som)
 
 ![info_som](https://user-images.githubusercontent.com/106887744/175612894-825d28d3-eb52-4211-91ce-ac79084861a8.png)<br/>
 
@@ -35,64 +40,30 @@ Nessa imagem é possível observa dados interessantes de serem destacados: o "De
 
 Nessa parte iremos ativar o Bluetooth de ambos aparelhos, para isso é necessário desativar o Wireless de ambos os aparelhos, visto que o Bluetooth 5.0 (que normalmente é utilizado nos fones) utiliza a frequência 2.4Ghz a mesma dos roteadores padrão e devido a isso pode haver uma interferência entre os sinais. Para realizar essa configuração é preciso clicar em cima do aparelho, com isso irá abrir uma página sobre o aparelho. Nessa página, selecione "config" localizado no menu superior, primeiro selecione no menu lateral a opção "Wireless" e desative a opção "on". Após isso, selecione no menu lateral a opção "Bluetooth" e ative a opção "on". Esse processo deve ser realizado em ambos aparelhos.
 
-#### 2.3. Vídeo de Configuração do Bluetooth Speaker
+#### 2.3.1 Vídeo de Configuração do Bluetooth Speaker
 https://user-images.githubusercontent.com/106887744/175616524-f90d7598-2bef-4c4b-a4ab-476481e7e182.mp4
 
-#### 2.3. Vídeo de Configuração do Portable Music Player
+#### 2.3.2 Vídeo de Configuração do Portable Music Player
 https://user-images.githubusercontent.com/106887744/175616983-e078a7da-ba7a-40da-8a0a-479785804314.mp4
 
 
-### 2.2. Segurança da Rede
-![trab3](https://user-images.githubusercontent.com/31890192/175184848-1fcdcd1e-e922-40f6-b8d7-753ca280e921.png)
+### 2.2. Conectando os aparelhos
 
-## 3. Ingressando Aparelhos na Rede
-Agora que a rede está configurada, iremos incluir os usuários desta rede. Para exemplo iremos imaginar que seja uma rede de um usuário que possua 1 Laptop e 1 Smartphone. <br/>
-![trab4](https://user-images.githubusercontent.com/31890192/175185827-1081a88a-1176-407a-95cd-802f5415c02b.png)
+Nessa parte, iremos realizar a conecção de Bluetooth entre os aparelhos. Primeiramente na mesma aba de "config" do aparelho e apertamos em "Discover" no qual ele irá procurar por aparelhos para parear. Após realizar essa etapa em ambos os aparelhos é necessário apertar em "Pair" para parear, estabelecendo desta forma a conecção. Por último, para testar se está funcionando pode aperta a tecla "Alt" + "Botão Esquerdo do Mouse", no qual será emitido um ruído do aparelho Bluetooth Speaker.
 
-## 4. Configurando Aparelhos
-Para configurar os aparelhos, iremos utilizar a GUI do Laptop e configuração "bruta" do smartphone (pois o CPT não disponibiliza GUI para este aparelho).
+#### 2.2.1 Vídeo de Conectando os aparelhos
 
-### 4.1. Configurando Laptop
-A conexão com a rede pelo Laptop será feita de forma simples seguindo os passos da interface gráfica (PC Wireless). <br/>
-![trab5](https://user-images.githubusercontent.com/31890192/175187610-f4101eb6-b7e1-4c2f-ad67-b48e33789b73.png)
+https://user-images.githubusercontent.com/106887744/175618444-541bb06e-4e55-4582-a0c2-265e351c6b06.mp4
 
-#### 4.1.1. Encontrando Rede
-Basta clicar em "Refresh" e aguardar um sinal da rede.<br/>
-![trab6](https://user-images.githubusercontent.com/31890192/175186965-0fe25654-6f5b-452f-bce6-5e4643c12d1c.png)
+### 2.4 Observações
 
-#### 4.1.2. Inserindo dados da Rede
-![trab12](https://user-images.githubusercontent.com/31890192/175187718-23b50ef5-792f-48ec-bce0-f9ad6dc2650e.png)
+Na parte de "config" é possível rever várias informações importante para ver se você está parenado com o aparelho que deseja, isso é possível por meio do "MAC Adress" tanto de origem qaunto de destino" que é possível observar melhor na imagem abaixo.
 
-#### 4.1.3. Checando conexão
-Podemos observar a qual roteador o aparelho está conectado olhando a linha de conexão que é demonstrada na aplicação. <br/>
-![trab7](https://user-images.githubusercontent.com/31890192/175186969-b47d700e-9f3a-4414-bbdd-99211f0e75a1.png)
+#### 2.4.1 "Config" do Bluetooth Speaker
 
-### 4.2 Configurando Smartphone
-Como a aplicação não fornece GUI para aparelhos Smartphone, usaremos a configuração padrão do CPT neste caso.<br/>
+![som_config](https://user-images.githubusercontent.com/106887744/175625881-f2d034fd-7634-440b-912b-a16484083736.png)
 
-#### 4.2.1 Inserindo dados da Rede
-Teremos que inserir os dados de rede com fidelidade ao que foi designado no aparelho.<br/>
-![trab8](https://user-images.githubusercontent.com/31890192/175188134-5cea239b-726a-49d7-98ca-07a9b4620002.png)
+#### 2.4.2 "Config" do Portable Music Player
 
-
-#### 4.2.2 Checando conexão
-Feito isso podemos notar que o aparelho Smartphone fora conectado a rede.<br/>
-![trab9](https://user-images.githubusercontent.com/31890192/175188108-2c7cbe62-6f43-475d-b811-4bb2f3e77e26.png)
-
-## 5. Verificando funcionalidade
-Para conseguirmos checar a funcionalidade da rede, precisaremos dos endereços IP dos aparelhos. Como de costume, uma rede Wireless utiliza protocolo DHCP para
-configuração dinâmica do endereço de seus usuários. <br/>
-![trab10](https://user-images.githubusercontent.com/31890192/175188460-26e0c07c-ce9f-4cbc-906a-486502ea6470.png)<br/>
-Podemos observar que em nosso roteador o range de endereços vai de 100 a 149, neste caso, podemos logicamente determinar os endereços do Laptop sendo como 100
-e do Smartphone sendo como 101 por suas entradas na rede.<br/>
-O próximo passo é utilizarmos o protocolo ICMP para troca de mensagens entre os aparelhos.<br/>
-
-#### 5.1 Exemplo 1
-![trab11](https://user-images.githubusercontent.com/31890192/175188802-a935d0a5-58ae-4650-8ed9-97d848f9a109.png)
-
-#### 5.2 Exemplo 2
-
-https://user-images.githubusercontent.com/106887744/175375118-8395f30a-39b4-4469-a408-9cf2640a2fd9.mp4
-
-
+![celular_config](https://user-images.githubusercontent.com/106887744/175626478-64ee6c0f-28f4-4e5a-9ace-bde97b20cd45.png)
 

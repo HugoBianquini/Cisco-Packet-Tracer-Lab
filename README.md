@@ -3,7 +3,7 @@ Este repostório tem o objetivo de armazenar as documentações utilizadas para 
 
 # Objetivo
 O objetivo deste laboratório é ilustrar na prática a configuração de LANs, e a interconexão das mesmas configurando uma WAN.
-Assim como, neste laboratório demonstraremos como configurar uma WLAN, ilustrando o funcionamento de redes WiFi. Além disso, também estaremos mostrando como ocorre a configuração e conecção Bluetooth.
+Assim como, neste laboratório demonstraremos como configurar uma WLAN, ilustrando o funcionamento de redes WiFi. Além disso, também estaremos mostrando como ocorre a configuração e conexão Bluetooth.
 
 # Pré-requisitos
 Para realizar esse lab, é necessário que você se cadastre na Cisco Academy e instale o Cisco Packet Tracer através [deste link](https://www.netacad.com/pt-br/courses/packet-tracer).<br />

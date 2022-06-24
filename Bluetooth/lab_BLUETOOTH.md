@@ -33,14 +33,11 @@ Nessa imagem é possível observa dados interessantes de serem destacados: o "De
 
 ### 2.3. Configurando os aparelhos
 
-Nessa parte iremos ativar o Bluetooth de ambos aparelhos, para isso é necessário desativar o Wireless de ambos os aparelhos, visto que o Bluetooth 5.0 (que normalmente é utilizado nos fones) utiliza a frequência 2.4Ghz a mesma dos roteadores padrão e devido a isso pode haver uma interferência entre os sinais. Para realizar essa configuração é preciso clicar em cima do aparelho, com isso irá abrir uma página sobre o aparelho. Nessa página, selecione "config" localizado no menu superior, primeiro selecione no menu lateral a opção "Wireless" e desative a opção "on". Após isso, selecione no menu lateral a opção "Bluetooth" e ative a opção "on".
+Nessa parte iremos ativar o Bluetooth de ambos aparelhos, para isso é necessário desativar o Wireless de ambos os aparelhos, visto que o Bluetooth 5.0 (que normalmente é utilizado nos fones) utiliza a frequência 2.4Ghz a mesma dos roteadores padrão e devido a isso pode haver uma interferência entre os sinais. Para realizar essa configuração é preciso clicar em cima do aparelho, com isso irá abrir uma página sobre o aparelho. Nessa página, selecione "config" localizado no menu superior, primeiro selecione no menu lateral a opção "Wireless" e desative a opção "on". Após isso, selecione no menu lateral a opção "Bluetooth" e ative a opção "on". Esse processo deve ser realizado em ambos aparelhos.
 
+https://user-images.githubusercontent.com/106887744/175616524-f90d7598-2bef-4c4b-a4ab-476481e7e182.mp4
 
-
-
-
-https://user-images.githubusercontent.com/106887744/175616387-7c9d38c6-1cb4-44be-b48a-79712f2a9f8f.mp4
-
+https://user-images.githubusercontent.com/106887744/175616983-e078a7da-ba7a-40da-8a0a-479785804314.mp4
 
 
 ### 2.2. Segurança da Rede

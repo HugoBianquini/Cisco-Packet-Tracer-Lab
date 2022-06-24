@@ -17,7 +17,15 @@ Vamos primeiramente escolher nossos aparelhos. Para este exemplo iremos usar um 
 <br/>
 
 ## 2. Configurando a Rede
-Para a configuração da rede iremos usar a interface gráfica do aparelho. Basta inserir os dados da rede desejados como os exemplos abaixo.
+Primeiramente é importante alanalisarmos as informações dos aparelhos.
+
+### 2.1. Informações do Bluetooth Speaker (som)
+
+![info_som](https://user-images.githubusercontent.com/106887744/175612894-825d28d3-eb52-4211-91ce-ac79084861a8.png)<br/>
+
+Nessa imagem é possível observa dados importantes
+
+
 
 ### 2.1. Identificação da Rede
 ![trab2](https://user-images.githubusercontent.com/31890192/175184844-c696b495-77c1-4a3a-8bb8-a413bc0768f2.png)

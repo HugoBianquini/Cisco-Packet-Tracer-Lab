@@ -69,16 +69,24 @@ Na parte de "config" é possível rever várias informações importante para ve
 
 ## 3. Curiosidade
 
+### 3.1 Aba "Physical" do Cisco Packet Tracer
+
 O Cisco Packet Tacer tammbém permite que na aba "Physical" vermos uma representação física do aparelho.
 
-### 3.1 "Physical" do Bluetooth Speaker
+#### 3.1.1 "Physical" do Bluetooth Speaker
 
 ![Sem título](https://user-images.githubusercontent.com/106887744/175644303-bd5b8c11-de21-4b0b-bb5b-6174d21f048a.png)
 
 
-### 3.1 "Physical" do Portable Music Player
-
+#### 3.1.2 "Physical" do Portable Music Player
 
 ![fisico_celular](https://user-images.githubusercontent.com/106887744/175644342-6e4b8829-452f-443c-88d7-a93a9f750a5e.png)
+
+### 3.2 Rede Bluetooth Complexa
+
+Abaixo apenas para questões demonstrativa realizei uma conecção mais complexa.
+
+
+![conecção_complexa](https://user-images.githubusercontent.com/106887744/175645668-580a1e27-0511-49c4-9ce2-1378fbf71fcc.png)
 
 

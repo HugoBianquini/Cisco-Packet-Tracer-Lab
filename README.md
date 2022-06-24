@@ -15,6 +15,6 @@ A criação do laboratório teve como membros: Enzo Roberto Miranda Silva, Hugo 
 
 ## GitHub dos Membros
 
-Enzo Roberto Miranda Silva: https://github.com/yobitan
-Hugo Vieira Bianquini: https://github.com/HugoBianquini
-Rafaela Peçanha Mathias Fernandes: https://github.com/Rafaela-Pecanha
+Enzo Roberto Miranda Silva: https://github.com/yobitan<br />
+Hugo Vieira Bianquini: https://github.com/HugoBianquini<br />
+Rafaela Peçanha Mathias Fernandes: https://github.com/Rafaela-Pecanha<br />
